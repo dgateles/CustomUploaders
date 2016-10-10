@@ -1,0 +1,11 @@
+{
+  "Name": "ions.be",
+  "RequestType": "GET",
+  "RequestURL": "http://ions.be/api/",
+  "Arguments": {
+    "api": "youraipkeyhere",
+    "url": "$input$"
+  },
+  "ResponseType": "Text",
+  "URL": "$json:shortenedUrl$"
+}
